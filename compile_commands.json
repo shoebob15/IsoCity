@@ -1,0 +1,26 @@
+[
+ {
+  "directory": "/Users/brennanreinhard/Desktop/Programming/IsoCity",
+  "arguments": [
+   "/Library/Developer/CommandLineTools/usr/bin/c++",
+   "-isystem",
+   "/Library/Frameworks/SDL2.framework/Headers",
+   "-iframework",
+   "/Library/Frameworks",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk",
+   "-MD",
+   "-MT",
+   "CMakeFiles/IsoCity.dir/src/main.cpp.o",
+   "-MF",
+   "CMakeFiles/IsoCity.dir/src/main.cpp.o.d",
+   "-o",
+   "CMakeFiles/IsoCity.dir/src/main.cpp.o",
+   "-c",
+   "/Users/brennanreinhard/Desktop/Programming/IsoCity/src/main.cpp"
+  ],
+  "file": "/Users/brennanreinhard/Desktop/Programming/IsoCity/src/main.cpp"
+ }
+]
