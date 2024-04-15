@@ -9,3 +9,7 @@ Insired by SimCity and Cities: Skylines
 
 ## TODO
 * [ ] game
+
+## Running Locally
+TODO
+Programmed on MacOS, should work out of the box for any M-series Mac
