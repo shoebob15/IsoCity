@@ -1,9 +1,7 @@
 #include <SDL2/SDL_timer.h>
 #include <stdio.h>
 #include <SDL.h>
-
-#define WIDTH 800
-#define HEIGHT 600
+#include "defs.h"
 #define DELAY 3000
 
 int main(int argc, char *argv[]) {
@@ -17,8 +15,8 @@ int main(int argc, char *argv[]) {
   window = SDL_CreateWindow("SDL Example",
                             SDL_WINDOWPOS_UNDEFINED,
                             SDL_WINDOWPOS_UNDEFINED,
-                            WIDTH,
-                            HEIGHT,
+                            SCREEN_WIDTH,
+                            SCREEN_HEIGHT,
                             0);
 
   if (window == NULL) {
