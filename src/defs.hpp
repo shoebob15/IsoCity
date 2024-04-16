@@ -1,10 +1,12 @@
+// good code lol
+
 #define SCREEN_WIDTH 800
 #define SCREEN_HEIGHT 600
 
 #define MAP_SIZE 96
 
-#define TILE_HEIGHT 30
-#define TILE_WIDTH 60
+#define TILE_HEIGHT 8
+#define TILE_WIDTH 8
 
 #define MAP_RENDER_AREA 24
 

@@ -326,4 +326,5 @@ CMakeFiles/IsoCity.dir/src/main.cpp.o: \
   /Library/Frameworks/SDL2.framework/Headers/SDL_system.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_version.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_locale.h \
-  /Library/Frameworks/SDL2.framework/Headers/SDL_misc.h
+  /Library/Frameworks/SDL2.framework/Headers/SDL_misc.h \
+  /Users/brennanreinhard/Desktop/Programming/IsoCity/src/defs.hpp
