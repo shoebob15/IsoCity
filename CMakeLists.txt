@@ -10,5 +10,5 @@ set(SOURCES
   src/main.cpp
 )
 
-add_executable(IsoCity src/main.cpp)
+add_executable(IsoCity ${SOURCES})
 target_link_libraries(IsoCity ${SDL2_LIBRARIES})
