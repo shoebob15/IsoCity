@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.7)
 
 project(IsoCity)
 
+# set module path for cmake
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "cmake")
+
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
