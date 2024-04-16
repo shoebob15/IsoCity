@@ -8,10 +8,8 @@ Insired by SimCity and Cities: Skylines
 * CMake - Build System
 
 ## TODO
-* [ ] game
+* [ ] Basic isometric engine
+* [ ] Simplify build files for all platforms
 
 ## Running Locally
-TODO
-Programmed on MacOS, should work out of the box for any M-series Mac
-
-To be completely honest, my Cmake code is awful. This will most likely only compile on my machine, which is unfortunate. May fix later idrk
+Read TODO
