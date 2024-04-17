@@ -4,9 +4,18 @@ project(IsoCity)
 
 # set module path for cmake
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "cmake")
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_COMPILER clang++)
 
+set(CMAKE_EXE_LINKER_FLAGS "-lSDL2 -lSDL2_image")
+
+# find SDL
 find_package(SDL2 REQUIRED)
+
+# include sdl
 include_directories(${SDL2_INCLUDE_DIRS})
+
+
 
 # I have no idea if this will work...
 # we can also add an inc directory if needed

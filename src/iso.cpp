@@ -1,16 +1,16 @@
 #include "defs.hpp"
 #include "iso.hpp"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 int initSDL() {
-  SDL_Window *window = NULL;
+  SDL_Window* window = NULL;
 
   if (SDL_Init(SDL_INIT_VIDEO) != 0) {
     fprintf(stderr, "SDL Failed to init");
     return 1;
   }
 
-  window = SDL_CreateWindow("SDL Example",
+  window = SDL_CreateWindow("IsoCity",
                             SDL_WINDOWPOS_UNDEFINED,
                             SDL_WINDOWPOS_UNDEFINED,
                             SCREEN_WIDTH,
