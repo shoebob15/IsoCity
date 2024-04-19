@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 
 project(IsoCity)
 
-find_package(SDL2 REQUIRED)
+find_package(SDL2 REQUIRED) # still broken for me - ratgrandmother
 include_directories(${SDL2_INCLUDE_DIRS})
 
 # I have no idea if this will work...
